@@ -40,13 +40,13 @@ body {
 
 @keyframes grow {
   0% {
-      width: 50vmin;
-      height: 50vmin;
+      width: 60vmin;
+      height: 60vmin;
       transform: scale(1);
   }
   50% {
-      width: 72vmin;
-      height: 72vmin;
+      width: 71vmin;
+      height: 71vmin;
       transform: scale(1.2);
   }
   100% {
