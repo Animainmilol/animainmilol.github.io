@@ -35,7 +35,7 @@ body {
   align-items: center;
   text-align: center;
   transition: 0.3s;
-  animation: growBox 1s ease-in-out forwards;
+  animation: grow 1s ease-in-out forwards;
 }
 
 @keyframes grow {
