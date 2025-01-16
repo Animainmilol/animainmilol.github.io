@@ -25,7 +25,7 @@ body {
 .box {
   width: 70vmin;
   height: 70vmin;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 5vw;
   backdrop-filter: blur(1rem);
   display: flex;
