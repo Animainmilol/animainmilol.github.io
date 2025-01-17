@@ -16,8 +16,10 @@ html {
 body {
   background: radial-gradient(ellipse at bottom, #00000000 0%, #050112 100%);
   height: 100vh;
+
   padding: 0;
   margin: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,16 +28,21 @@ body {
 .box {
   width: 70vmin;
   height: 70vmin;
+
   background: rgba(0, 0, 0, 0.5);
   border-radius: 5vw;
   backdrop-filter: blur(1rem);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+
   transition: 0.3s;
   animation: grow 1.5s ease-in-out forwards;
+
+  box-shadow: 5px 5px 10px #000000AA;
 }
 
 @keyframes grow {
@@ -54,11 +61,6 @@ body {
       height: 70vmin;
       transform: scale(1);
   }
-}
-
-.box:hover {
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(2rem);
 }
 
 .box img {
