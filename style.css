@@ -67,6 +67,11 @@ body {
   width: 30vmin;
   height: 30vmin;
   border-radius: 50%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.box img:hover {
+  transform: rotate(360deg);
 }
 
 .box h1 {
