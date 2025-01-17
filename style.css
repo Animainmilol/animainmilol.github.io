@@ -67,11 +67,13 @@ body {
   width: 30vmin;
   height: 30vmin;
   border-radius: 50%;
-  transition: transform 0.6s ease-in-out;
+  animation: levitate 2s ease infinite;
 }
 
-.box img:hover {
-  transform: rotate(360deg);
+@keyframes levitate {
+  0% { transform: translateY(0vmin); }
+  50% { transform: translateY(-1vmin); }
+  100% { transform: translateY(0vmin); }
 }
 
 .box h1 {
