@@ -35,7 +35,7 @@ body {
   align-items: center;
   text-align: center;
   transition: 0.3s;
-  animation: grow 1s ease-in-out forwards;
+  animation: grow 1.5s ease-in-out forwards;
 }
 
 @keyframes grow {
@@ -44,7 +44,7 @@ body {
       height: 68vmin;
       transform: scale(0.7);
   }
-  50% {
+  40% {
       width: 71vmin;
       height: 71vmin;
       transform: scale(1.1);
