@@ -33,16 +33,11 @@ body {
 
 .content {
   display: flex;
-  flex-direction: row; /* Align side by side */
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 3vmin; /* Space between main and socials */
-}
 
-@keyframes grow {
-  0% { transform: scale(0.7); }
-  40% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+  gap: 3vmin;
 }
 
 .main {
@@ -73,12 +68,6 @@ body {
   height: 30vmin;
   border-radius: 50%;
   animation: levitate 2s ease infinite;
-}
-
-@keyframes levitate {
-  0% { transform: translateY(0vmin); }
-  50% { transform: translateY(-1vmin); }
-  100% { transform: translateY(0vmin); }
 }
 
 .main h1 {
@@ -120,4 +109,15 @@ body {
 .socials img {
   width: 8vmin;
   height: 8vmin;
+}
+
+@keyframes grow {
+  0% { transform: scale(0.7); }
+  40% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+@keyframes levitate {
+  0% { transform: translateY(0vmin); }
+  50% { transform: translateY(-1vmin); }
+  100% { transform: translateY(0vmin); }
 }
