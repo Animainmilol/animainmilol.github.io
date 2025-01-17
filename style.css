@@ -50,21 +50,9 @@ body {
 }
 
 @keyframes grow {
-  0% {
-      width: 68vmin;
-      height: 68vmin;
-      transform: scale(0.7);
-  }
-  40% {
-      width: 71vmin;
-      height: 71vmin;
-      transform: scale(1.1);
-  }
-  100% {
-      width: 70vmin;
-      height: 70vmin;
-      transform: scale(1);
-  }
+  0% { transform: scale(0.7); }
+  40% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
 .box img {
