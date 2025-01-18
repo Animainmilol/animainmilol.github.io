@@ -10,12 +10,6 @@ html {
 	animation: gradient 15s ease infinite;  
 }
 
-@keyframes gradient {
-	0% { background-position: 0% 50%; }
-	50% { background-position: 100% 50%; }
-	100% { background-position: 0% 50%; }
-}
-
 body {
   height: 100vh;
 
@@ -23,10 +17,8 @@ body {
   margin: 0;
 
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center; 
 
   background: none;
 }
@@ -48,7 +40,7 @@ body {
   box-sizing: border-box;
 
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 5vw;
+  border-radius: 4vw;
   backdrop-filter: blur(1rem);
   box-shadow: 5px 5px 10px #000000AA;
 
@@ -93,7 +85,7 @@ body {
   box-sizing: border-box;
 
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 5vw;
+  border-radius: 4vw;
   backdrop-filter: blur(1rem);
   box-shadow: 5px 5px 10px #000000AA;
 
@@ -109,6 +101,12 @@ body {
 .socials img {
   width: 8vmin;
   height: 8vmin;
+}
+
+@keyframes gradient {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
 }
 
 @keyframes grow {
