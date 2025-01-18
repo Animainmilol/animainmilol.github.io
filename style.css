@@ -110,7 +110,8 @@ body {
   transition: transform 0.3s ease;
 }
 
-.socials img:hover {
+.socials img:hover,
+.socials img:active {
   transform: scale(1.2) rotate(10deg);
 }
 
