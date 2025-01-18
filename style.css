@@ -96,7 +96,6 @@ body {
   justify-content: space-around;
   align-items: center;
 
-  pointer-events: none;
   outline: none;
   user-select: none;
 
@@ -107,6 +106,12 @@ body {
 .socials img {
   width: 8vmin;
   height: 8vmin;
+
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2) rotate(10deg);
 }
 
 @keyframes gradient {
