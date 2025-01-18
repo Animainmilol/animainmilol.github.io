@@ -93,8 +93,12 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+
+  pointer-events: none;
+  outline: none;
+  user-select: none;
 
   transition: 0.3s;
   animation: grow 2s ease-in-out forwards; 
