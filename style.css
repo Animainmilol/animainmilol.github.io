@@ -30,6 +30,8 @@ body {
   align-items: center;
 
   gap: 3vmin;
+
+  animation: gap 3s ease-in-out forwards;
 }
 
 .main {
@@ -45,7 +47,7 @@ body {
   box-shadow: 5px 5px 10px #000000AA;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: column;-in-out
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -95,7 +97,7 @@ body {
   align-items: center;
 
   transition: 0.3s;
-  animation: grow 1.5s ease-in-out forwards; 
+  animation: grow 2s ease-in-out forwards; 
 }
 
 .socials img {
@@ -114,6 +116,12 @@ body {
   40% { transform: scale(1.1); }
   100% { transform: scale(1); }
 }
+
+@keyframes gap {
+  0% { gap: 8vmin; }
+  100% { gap: 3vmin; }
+}
+
 @keyframes levitate {
   0% { transform: translateY(0vmin); }
   50% { transform: translateY(-1vmin); }
